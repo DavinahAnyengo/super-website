@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+  .nav-buttons {
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .nav-buttons a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  h1{
+    font-size: xx-large;
+  }
+     .f-btn{
+    background-color: rgb(0, 102, 255);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.button{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 20px;
+max-width: 500px;
+margin: 40px auto;
+}
+.page{
+  background-color: #6fb1e7;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 1200px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  height: 80vh;
+}
+  .container {
+    display: flex;
+    margin: 2rem auto;
+    padding-top: 200px;
+  }
+  .para{
+    font-size: larger;
+  }
+  
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.table table {
+  width: 1200px;
+  height: 60vh;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.table tr:hover{
+  background-color: #6fb1e7;
+  cursor: pointer;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(64, 64, 238);
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+
+.time table {
+  width: 1200px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #1a73e8;
+  color: white;
+}
+
+d {
+  font-weight: bold;
+}
+
+.math {
+  background-color: #fce38a;
+}
+
+.english {
+  background-color: #f38181;
+}
+
+.history {
+  background-color: #f7b267;
+}
+
+.science {
+  background-color: #eefc76;
+}
+
+.art {
+  background-color: #a2d5f2;
+}
+.computer{
+  background-color: gray;
+}
+.social{
+  background-color: plum;
+}
+.kiswahili{
+  background-color: indianred ;
+}
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+ .book-table tr:hover{
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
